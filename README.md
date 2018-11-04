@@ -1,2 +1,2 @@
 # Follow
-![Screenshot](startview.png)
+![Screenshot](startview.PNG)
