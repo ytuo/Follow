@@ -34,9 +34,9 @@ namespace VRStandardAssets.Utils {
 
         void Update()
         {
-            ForwardMovement();
+            //ForwardMovement();
+
             
-            /*
             float MoveHor = Input.GetAxisRaw("Horizontal");
             float MoveVert = Input.GetAxisRaw("Vertical");
             Vector2 movement = new Vector2(MoveHor * movespeed, 0);
@@ -67,7 +67,7 @@ namespace VRStandardAssets.Utils {
             {
                 transform.Rotate(0, Time.deltaTime * counterClockwise, 0);
             }
-
+            /* 
             //playerRB.AddForce(movement);
             if (Input.GetKeyDown("left") || Input.GetKeyDown("a"))
             {
