@@ -34,9 +34,9 @@ namespace VRStandardAssets.Utils {
 
         void Update()
         {
-            //ForwardMovement();
-
+            ForwardMovement();
             
+            /*
             float MoveHor = Input.GetAxisRaw("Horizontal");
             float MoveVert = Input.GetAxisRaw("Vertical");
             Vector2 movement = new Vector2(MoveHor * movespeed, 0);
@@ -58,7 +58,6 @@ namespace VRStandardAssets.Utils {
             {
                 transform.position += transform.right * Time.deltaTime * movespeed;
             }
-
             if (Input.GetKey(KeyCode.E))
             {
                 transform.Rotate(0, Time.deltaTime * clockwise, 0);
@@ -67,7 +66,6 @@ namespace VRStandardAssets.Utils {
             {
                 transform.Rotate(0, Time.deltaTime * counterClockwise, 0);
             }
-            /* 
             //playerRB.AddForce(movement);
             if (Input.GetKeyDown("left") || Input.GetKeyDown("a"))
             {
@@ -77,7 +75,6 @@ namespace VRStandardAssets.Utils {
             {
                 facingRight = true;
             }
-
             if (playerRB.velocity.x > maxspeed)
             {
                 playerRB.velocity = new Vector2(maxspeed, playerRB.velocity.y);
