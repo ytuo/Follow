@@ -1,9 +1,9 @@
 # Follow
 
 #### Group Members
-\* Jessica Kuo <https://github.com/jesskuo>
-\* Dexter Lee <https://github.com/dexterlee>
-\* Jason Yeung <https://github.com/JasonJYeung>
+\* Jessica Kuo <https://github.com/jesskuo> <br/>
+\* Dexter Lee <https://github.com/dexterlee> <br/>
+\* Jason Yeung <https://github.com/JasonJYeung> <br/>
 \* Yannan Tuo <https://github.com/ytuo>
 
 The objective of Follow is to escape the maze. The player traverses the maze by tapping and holding on the VR trackpad while facing in the direction of motion. Should the player become lost, we have placed subtle hints located throughout the maze. To find the hints, just look at the name of the game! 
