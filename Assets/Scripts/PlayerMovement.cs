@@ -35,6 +35,7 @@ namespace VRStandardAssets.Utils {
         void Update()
         {
             ForwardMovement();
+            
             /*
             float MoveHor = Input.GetAxisRaw("Horizontal");
             float MoveVert = Input.GetAxisRaw("Vertical");
